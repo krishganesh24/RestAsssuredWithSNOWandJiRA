@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<request>
+   <entry>
+   <short_description>Short description: Create incident via XML</short_description>
+    <description>Create incident via XML</description>
+    <category>XML</category>
+   </entry>
+</request>

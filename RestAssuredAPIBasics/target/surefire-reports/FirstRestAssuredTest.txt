@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: FirstRestAssuredTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.781 sec <<< FAILURE!
+sendGetRequestTest(FirstRestAssuredTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.RuntimeException: Test not implemented
+	at FirstRestAssuredTest.sendGetRequestTest(FirstRestAssuredTest.java:7)
+

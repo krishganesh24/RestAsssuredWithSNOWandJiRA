@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-01T10:31:39 EDT" name="Default suite" finished-at="2022-09-01T10:31:45 EDT" duration-ms="5150">
+    <groups>
+    </groups>
+    <test started-at="2022-09-01T10:31:39 EDT" name="Default test" finished-at="2022-09-01T10:31:45 EDT" duration-ms="5150">
+      <class name="com.restapi.servicenow.CreateIncidentWithPojo">
+        <test-method is-config="true" signature="preConfig()[pri:0, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:39 EDT" name="preConfig" finished-at="2022-09-01T10:31:39 EDT" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConfig -->
+        <test-method signature="createincident()[pri:0, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:40 EDT" name="createincident" finished-at="2022-09-01T10:31:43 EDT" duration-ms="3040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createincident -->
+        <test-method is-config="true" signature="postConfig()[pri:0, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:43 EDT" name="postConfig" finished-at="2022-09-01T10:31:43 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method signature="updateIncident()[pri:1, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:43 EDT" name="updateIncident" finished-at="2022-09-01T10:31:43 EDT" depends-on-methods="com.restapi.servicenow.CreateIncidentWithPojo.createincident" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateIncident -->
+        <test-method is-config="true" signature="postConfig()[pri:0, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:43 EDT" name="postConfig" finished-at="2022-09-01T10:31:43 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method signature="getIncident()[pri:2, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:43 EDT" name="getIncident" finished-at="2022-09-01T10:31:44 EDT" depends-on-methods="com.restapi.servicenow.CreateIncidentWithPojo.createincident" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIncident -->
+        <test-method is-config="true" signature="postConfig()[pri:0, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:44 EDT" name="postConfig" finished-at="2022-09-01T10:31:44 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method signature="deleteIncident()[pri:3, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:44 EDT" name="deleteIncident" finished-at="2022-09-01T10:31:44 EDT" depends-on-methods="com.restapi.servicenow.CreateIncidentWithPojo.createincident" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteIncident -->
+        <test-method is-config="true" signature="postConfig()[pri:0, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:44 EDT" name="postConfig" finished-at="2022-09-01T10:31:44 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method signature="validateDeletedIncident()[pri:4, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:44 EDT" name="validateDeletedIncident" finished-at="2022-09-01T10:31:45 EDT" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeletedIncident -->
+        <test-method is-config="true" signature="postConfig()[pri:0, instance:com.restapi.servicenow.CreateIncidentWithPojo@28f3b248]" started-at="2022-09-01T10:31:45 EDT" name="postConfig" finished-at="2022-09-01T10:31:45 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+      </class> <!-- com.restapi.servicenow.CreateIncidentWithPojo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
